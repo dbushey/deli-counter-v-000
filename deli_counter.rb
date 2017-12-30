@@ -1,6 +1,6 @@
 
 def line(customers)
-  if customers.length === 0
+  if customers.length == 0
     return "The line is currently empty."
   else
     index = 0
