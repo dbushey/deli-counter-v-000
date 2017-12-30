@@ -9,6 +9,6 @@ def line(katz_deli)
       index += 1
       newArray.push("#{index}. #{katz_deli[index]}");
     end
-    return "he line is currently:${newArray}"
+    return "The line is currently:${newArray}"
   end
 end
