@@ -23,4 +23,5 @@ def now_serving(katz_deli)
     puts "The line is currently empty."
   else
     puts "Currently serving #{katz_deli.shift(1)}."
+  end
 end
