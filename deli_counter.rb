@@ -6,8 +6,8 @@ def line(katz_deli)
   else
     index = 0
     while index != katz_deli.length do
-      index += 1
       new_array.push("#{index}. #{katz_deli[index]}")
+      index += 1
     end
     puts "The line is currently:#{new_array}"
   end
