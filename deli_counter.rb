@@ -7,8 +7,8 @@ def line(katz_deli)
     index = 0
     while index !== katz_deli.length do
       index += 1
-      newArray.push("#{index}. #{katz_deli[index]}");
+      new_array.push("#{index}. #{katz_deli[index]}");
     end
-    return "The line is currently:${newArray}"
+    return "The line is currently:#{new_array}"
   end
 end
