@@ -4,7 +4,7 @@ def line(katz_deli)
     return "The line is currently empty."
   else
     index = 0
-    while index !== katz_deli.length do
+    while index != katz_deli.length do
       index += 1
       new_array.push("#{index}. #{katz_deli[index]}");
     end
